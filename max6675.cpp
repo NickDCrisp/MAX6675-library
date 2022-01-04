@@ -27,6 +27,7 @@ MAX6675::MAX6675(int8_t SCLK, int8_t CS, int8_t MISO) {
   // de-select
   digitalWrite(cs, HIGH);
   // NDC: initial value is high we pulse low to read in spiread() routine
+  // this is just fixing an initial value problem first time around.
   digitalWrite(sclk, HIGH);
 
 }

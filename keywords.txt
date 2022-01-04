@@ -13,6 +13,7 @@ max6675	KEYWORD1
 #######################################
 
 readCelsius	KEYWORD2
+readC KEYWORD2
 readFahrenheit	KEYWORD2
 readFarenheit	KEYWORD2
 
@@ -20,3 +21,4 @@ readFarenheit	KEYWORD2
 # Constants (LITERAL1)
 #######################################
 
+OPENCIRCUIT LITERAL1

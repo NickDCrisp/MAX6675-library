@@ -58,8 +58,10 @@ float MAX6675::readCelsius(void) {
     // return -100;
   }
 
+  // shift out the status bits, leaving data where LSB = 0.25C
   v >>= 3;
 
+  // convert to float in degC
   return v * 0.25;
 }
 
